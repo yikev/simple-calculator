@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 2px solid red;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    margin: 25px;
+    height: 1000px;
+    width: 400px;
+}
+
+button {
+    flex: 1 0 22%;
+    height: 35px;
+    width: 75px;
+}
+
+.arithmatic {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;
+    padding: 5px;
+    gap: 10px;
+}
+
+.num-pad {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    height: 140px;
+    padding: 5px;
+    gap: 10px;
+    
+}
+
+.screen {
+    height: 100px;
+    width: 400px;
+    outline: 1px solid black;
+    position: relative;
+    background-color: lightgray;
+}
+
+.row {
+    display: flex;
+}
+
+.cells {
+    height: 10px;
+    width: 10px;
+    outline: 1px solid black;
+}
